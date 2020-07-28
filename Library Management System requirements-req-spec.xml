@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Library Management System requirements"  doc_id="lms"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[LRQ1]]></docid>
+		<title><![CDATA[R.1:Register]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Description : First the user will have to register/sign up. There are two different type of users.<br />
+The library manager/head : The manager have to provide details about the name of library<br />
+,address, phone number, email id.<br />
+Regular person/student : The user have to provide details about his/her name of address,<br />
+phone number, email id.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ2]]></docid>
+		<title><![CDATA[R.1.1: Sign up]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Input: Detail about the user as mentioned in the description.<br />
+Output: Confirmation of registration status and a membership number and password will be<br />
+generated and mailed to the user.<br />
+Processing: All details will be checked and if any error are found then an error message is<br />
+displayed else a membership number and password will be generated.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ3]]></docid>
+		<title><![CDATA[R.1.2 : Login]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>Input: Enter the membership number and password provided.<br />
+Output : User will be able to use the features of software.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ4]]></docid>
+		<title><![CDATA[R.2.1 : Books issued.]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>Description : List of books will be displaced along with data of return.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ5]]></docid>
+		<title><![CDATA[R.2.2 : Search]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<p>Input : Enter the name of author&#39;s name of the books to be issued.<br />
+Output : List of books related to the keyword.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ6]]></docid>
+		<title><![CDATA[R.2.3 : Issues book]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>6</node_order>
+		<description><![CDATA[<p>State : Searched the book user wants to issues.<br />
+Input : click the book user wants.<br />
+Output : conformation for book issue and apology for failure in issue.<br />
+Processing : if selected book is available then book will be issued else error will be displayed.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ7]]></docid>
+		<title><![CDATA[R.2.4 : Renew book]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>7</node_order>
+		<description><![CDATA[<p>State : Book is issued and is about to reach the date of return.<br />
+Input : Select the book to be renewed.<br />
+Output : conformation message.<br />
+Processing : If the issued book is already reserved by another user then error message will<br />
+be send and if not then conformation message will be displayed.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ8]]></docid>
+		<title><![CDATA[R.2.5 : Return]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>8</node_order>
+		<description><![CDATA[<p>Input ; Return the book to the library.<br />
+Output : The issued list will be updated and the returned book will be listed out.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ9]]></docid>
+		<title><![CDATA[R.2.6 ; Reserve book]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>9</node_order>
+		<description><![CDATA[<p>Input ; Enter the details of the book.<br />
+Output : Book successfully reserved.<br />
+Description : If a book is issued by someone then the user can reserve it ,so that later the<br />
+user can issue it.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ10]]></docid>
+		<title><![CDATA[R.2.6 Fine]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>10</node_order>
+		<description><![CDATA[<p>Input : check for the fines.<br />
+Output : Details about fines on different books issued by the user.<br />
+Processing : The fine will be calculated, if it crossed the date of return and the user did not<br />
+renewed if then fine will be applied by Rs 10 per day.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ11]]></docid>
+		<title><![CDATA[R.3.1.1 Add books]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>11</node_order>
+		<description><![CDATA[<p>Input : Enter the details of the books such as names ,author ,edition, quantity.<br />
+Output : confirmation of addition.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[LRQ12]]></docid>
+		<title><![CDATA[R.3.1.2 Remove book]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>12</node_order>
+		<description><![CDATA[<p>Input : Enter the name of the book and quantity of books.<br />
+Output : Update the list of the books available.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</requirement-specification>

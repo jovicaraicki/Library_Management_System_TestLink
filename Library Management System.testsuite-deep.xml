@@ -1,0 +1,2476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="503" name="Library Management System" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[<p>Library Management System&nbsp;- Software Requirement Specificarion</p>
+]]></details> 
+
+<testcase internalid="530" name="LMS - register and login - successful scenario 1">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[62]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Register and login - User -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(a). Register and login sequence diagram<br />
+&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Admin exists</p>
+
+<p>Communication between user and admin exists</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Send registration request to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Registration request has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for response that registration is successful from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about successful registration has arrived from the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Send login data to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login data has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wait for response about successfull login from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about successful registration has arrived from the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="536" name="LMS - register and login - successful scenario 2">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[63]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Register and login - Librarian -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(a). Register and login sequence diagram</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>Librarian exists</p>
+
+<p>Admin exists</p>
+
+<p>Communication between librarian and admin exists</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Send registration for library&nbsp;data to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Registration for library&nbsp;data has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for successful response from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successful response has arrived&nbsp;from the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Send login data to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login data has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wait for successful response from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successfull response has arrived from the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="542" name="LMS - register and login - successful scenario 3">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[64]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Register and login - Admin -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(a). Register and login sequence diagram</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Librarian exists</p>
+
+<p>Admin exists</p>
+
+<p>Communication between user and admin exists</p>
+
+<p>Communication between librarian&nbsp;and admin exists</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wait for registration data from the user</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Registration data from the user has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Check if user email and mobile number&nbsp;is valid</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User&nbsp;email and mobile number&nbsp;is valid</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Send user registration data to the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User registration data has been sent to the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wait for response from the database that user registration data has been written to the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response&nbsp;that user registration data has been written has arrived from the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Send response about successful registration to the user</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about successful registration has been sent to the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wait for registration data from the librarian</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Registration data from the librarian has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Check if librarian&nbsp;email and mobile number&nbsp;is valid</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Librarian&nbsp;email and mobile number&nbsp;is valid</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Send librarian registration data to the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Librarian registration data has been sent to the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Wait for response from the database that librarian registration data has been written to the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response&nbsp;that librarian registration data has been written has arrived from the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Send response about successful registration to the librarian</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about successful registration has been sent to the librarian</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Wait for login request from the user</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login request has arrived from the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Send user login data to the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User login data has been sent to the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Wait for user login validation from the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about valid user has been sent to the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>Send response about successful logon to the user</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about successful login has been sent to the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="550" name="LMS - register and login - unsuccessful scenario 1">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[65]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Register and login - User - unsuccessful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(a). Register and login sequence diagram</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Admin exists</p>
+
+<p>Communication between user and admin is broken</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Send registration data to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Registration data has not&nbsp;been sent to the admin due to communication between user and admin is broken</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="553" name="LMS - register and login - unsuccessful scenario 2">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[66]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Register and login - User - unsuccessful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(a). Register and login sequence diagram</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Admin exists</p>
+
+<p>Communication between user and admin is broken</p>
+
+<p>User email or mobile number is invalid</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Send registration data to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Registration data has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for response from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Admin sent response about invalid email or mobile number</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="558" name="LMS - register and login - unsuccessful scenario 3">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[67]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Register and login - Librarian&nbsp;- unsuccessful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(a). Register and login sequence diagram</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>Librarian&nbsp;exists</p>
+
+<p>Admin exists</p>
+
+<p>Communication between librarian and admin is broken</p>
+
+<p>Librarian email or mobile number is invalid</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Send invalid email or mobile number to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Invalid email or mobile number has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for response from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Admin sent response about invalid email or mobile number</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="563" name="LMS - register and login - successful scenario 4">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[68]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Register and login - Admin database -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(a). Register and login sequence diagram</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>Admin exists</p>
+
+<p>Admin database exists</p>
+
+<p>Communication between admin and admin database exists</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wait for user registration data from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User registration data has arrived from the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Send response that data has been written to the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about writting data to the database has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Wait for librarian registration data from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Librarian registration data has arrived from the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Send response that data has been written to the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about writting data to the database has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Wait for user login data from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User login data has arrived from the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Send response to the admin that user is valid</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about valid user has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="571" name="LMS - register and login - unsuccessful scenario 4">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[69]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Register and login - Admin database - unsuccessful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(a). Register and login sequence diagram</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>Admin exists</p>
+
+<p>Admin database exists</p>
+
+<p>Communication between admin and admin database is broken</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wait for user registration data from the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User registration data has arrived from the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Check if user email and mobile number&nbsp;is valid</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User&nbsp;email and mobile number&nbsp;is valid</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Send user registration data to the database&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>User registration data has not been sent to the database, due to communication between admin and database is broken</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Virtual Medical Home requirements]]></req_spec_title>
+			<doc_id><![CDATA[REQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Access to web application]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Virtual Medical Home requirements]]></req_spec_title>
+			<doc_id><![CDATA[REQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[User registration]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="582" name="LMS - services user - successful scenario 1">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[70]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Services user - User -&nbsp;successful scenario - book available now</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(b) Services user could use</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Books exists</p>
+
+<p>Books database exists</p>
+
+<p>Communication between user and books exists</p>
+
+<p>Communication between user and books database exists</p>
+
+<p>Book exists, and is available now</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Search for the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Search request has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for books list response from books</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List of books appear on the screen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Issue book if available</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request for issuing book has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wait for response that book is issued</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successful response that book is issued is appear on the screen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Return the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The book has been returned</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wait for the response from database that book is returned</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successful esponse from the database that book is returned appear on the screen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ4]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.1 : Books issued.]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ5]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.2 : Search]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ6]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.3 : Issues book]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ8]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.5 : Return]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="590" name="LMS - services user - successful scenario 2">
+	<node_order><![CDATA[1009]]></node_order>
+	<externalid><![CDATA[71]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Services user - User -&nbsp;successful scenario - reserve book</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(b) Services user could use</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Books exists</p>
+
+<p>Books database exists</p>
+
+<p>Communication between user and books exists</p>
+
+<p>Communication between user and books database exists</p>
+
+<p>Book exists, and is not available now</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Search for the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Search request has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for books list response from books</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>List of books appear on the screen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Issue book if available</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request for issuing book has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wait for response that book is issued</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response that book is not available is appear on the screen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Reserve book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request for reserving the book has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wait for response that book is issued</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successful response that book is issued is appear on the screen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Return the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The book has been returned</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Wait for the response from database that book is returned</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successful esponse from the database that book is returned appear on the screen</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ4]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.1 : Books issued.]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ5]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.2 : Search]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ6]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.3 : Issues book]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ8]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.5 : Return]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ9]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.6 ; Reserve book]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="600" name="LMS - services user - unsuccessful scenario 1">
+	<node_order><![CDATA[1010]]></node_order>
+	<externalid><![CDATA[72]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Services user - User -&nbsp;successful scenario - book does not exists</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(b) Services user could use</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Books exists</p>
+
+<p>Books database exists</p>
+
+<p>Communication between user and books exists</p>
+
+<p>Communication between user and books database exists</p>
+
+<p>Book does not exists</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Search for the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Search request has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for books list response from books</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>There is no response due that book does not exists</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="604" name="LMS - services user - successful scenario 3">
+	<node_order><![CDATA[1011]]></node_order>
+	<externalid><![CDATA[73]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Services user - Books -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(b) Services user could use</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Books exists</p>
+
+<p>Books database exists</p>
+
+<p>Communication between user and books exists</p>
+
+<p>Communication between books&nbsp;and books database exists</p>
+
+<p>Book exists, and is available now</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wait for the search request from the user</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Search request has arrived from the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Check book availability in the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request has been sent to the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Wait for database search results</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Database search results has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Send books list search results to the user&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Books list has been sent to the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Wait for request from the user for issuing the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request from the user has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Send request to the database for checking book availability&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request has been sent to the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Wait for response about book availability from the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response that book is available has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Send confirmation to the user that book is issued</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Confirmation has been sent to the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Wait for the user to return the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request for returning book has arrived from the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Check if user has fine</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request has been sent to the database</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Wait for information about fine</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Information about fine has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ10]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.6 Fine]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ4]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.1 : Books issued.]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ5]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.2 : Search]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ6]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.3 : Issues book]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ8]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.5 : Return]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="620" name="LMS - services user - successful scenario 4">
+	<node_order><![CDATA[1012]]></node_order>
+	<externalid><![CDATA[74]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Services user - Books Database -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(b) Services user could use</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Books exists</p>
+
+<p>Books database exists</p>
+
+<p>Transaction exists</p>
+
+<p>Communication between books database and books exists</p>
+
+<p>Communication between books database and user&nbsp;exists</p>
+
+<p>Communication between transaction and books database exists</p>
+
+<p>Book exists, and is not available now</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wait for request from the books about book availability</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request from books has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Send search results about book to the books</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Search results has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Wait for request from the user about book issuain status</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request from the books has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Send response to the user that book is not available now</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response has been sent to the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Wait for request from the books about book availability for reserving</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request from books has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Send response to the books that book is available for reserving</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Wait for request from books about fine</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request from books has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Send transaction details</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Transaction details has been sent</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Send fine details to the books&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Fine details has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Wait for successul response from the books</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successful response has arrived from the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Update data about issued book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Data about issued book has been&nbsp;updated</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Send information to the user that book is returned</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Information about returned book has been sent to the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ10]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.6 Fine]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ12]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.3.1.2 Remove book]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ4]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.1 : Books issued.]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ5]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.2 : Search]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ6]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.3 : Issues book]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ8]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.5 : Return]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ9]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.6 ; Reserve book]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="634" name="LMS - services user - unsuccessful scenario 2">
+	<node_order><![CDATA[1013]]></node_order>
+	<externalid><![CDATA[75]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Services user - Transaction&nbsp;- unsuccessful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(b) Services user could use</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>Books database exists</p>
+
+<p>Transaction exists</p>
+
+<p>Books database is corrupted</p>
+
+<p>Communication between books database and transaction&nbsp;exists</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wait for transaction details from the database</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Transaction details has not been sent from the database due to dtabase is corrupted</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="637" name="LMS - full working - successful scenario 1">
+	<node_order><![CDATA[1014]]></node_order>
+	<externalid><![CDATA[76]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Full working of the system - User -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(d) Full working of the system</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Admin exists</p>
+
+<p>Books exists</p>
+
+<p>Transaction exists</p>
+
+<p>Bill exists</p>
+
+<p>Communication between user and admin exists</p>
+
+<p>Communication between user and books exists</p>
+
+<p>Communication between user and transaction exists</p>
+
+<p>Communication between user and bill exists</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Send login request to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login request has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Search for the books</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Search request has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Issue the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Issue request has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Reserve the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request for reserving the book has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Return the book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Requet for returning book has been sent to the books</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wait for response that bill is created</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response that bill is creatd has been arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Send request for transaction</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request has been sent to the transaction</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Wait for response from transaction</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Successful response from transaction has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Wait for logout from admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Logout response from admin has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ10]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.6 Fine]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ4]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.1 : Books issued.]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ5]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.2 : Search]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="648" name="LMS - full working - successful scenario 2">
+	<node_order><![CDATA[1015]]></node_order>
+	<externalid><![CDATA[77]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Full working of the system - Librarian -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(d) Full working of the system</p>
+]]></summary>
+	<preconditions><![CDATA[<table>
+	<tbody>
+		<tr>
+			<th colspan="6">jr-76 : LMS - full working - successful scenario 1 - Version1&nbsp;<img src="http://34.65.229.248/gui/themes/default/images/ghost16x16.png" title="Show ghost string" />&nbsp;<img src="http://34.65.229.248/gui/themes/default/images/information.png" title="Display Author/Updater" /></th>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<th colspan="6">Summary</th>
+		</tr>
+		<tr>
+			<td colspan="6">
+			<p>Library Managament System - SRS</p>
+
+			<p>Full working of the system - User -&nbsp;successful scenario</p>
+
+			<p>2.9.3 Sequential diagram</p>
+
+			<p>Fig 4(d) Full working of the system</p>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<th colspan="6">Preconditions</th>
+		</tr>
+		<tr>
+			<td colspan="6">
+			<p>Software Requirement</p>
+
+			<p>&nbsp;Front&nbsp;end:</p>
+
+			<p>&nbsp;- Android developer tool</p>
+
+			<p>&nbsp;- Advance Java</p>
+
+			<p>&nbsp;Back end:</p>
+
+			<p>&nbsp;- MySQL</p>
+
+			<p>Hardware Requirement</p>
+
+			<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+			<p>&nbsp;-&nbsp;2GB ram</p>
+
+			<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+			<p>&nbsp;-&nbsp;Intel i5</p>
+
+			<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+			<p>Internet connection</p>
+
+			<p>Librarian exists</p>
+
+			<p>Admin exists</p>
+
+			<p>Books exists</p>
+
+			<p>Transaction exists</p>
+
+			<p>Bill exists</p>
+
+			<p>Communication between librarian and admin exists</p>
+
+			<p>Communication between librarian and transaction exists</p>
+
+			<p>Communication between librarian and bill exists</p>
+
+			<p>&nbsp;</p>
+
+			<p>SETUP: Enter application</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Send login data to the admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login data has been sent to the admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Update data about book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Data about book has been updated</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add new or remove book</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>New book is added or book has been removed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wait for response that bill is created</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response abot bill has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Wait for response that transaction is complete</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Response about complete transaction has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wait for logout response from admin</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Logout response has arrived from admin</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ11]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.3.1.1 Add books]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ12]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.3.1.2 Remove book]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="656" name="LMS - full working - successful scenario 3">
+	<node_order><![CDATA[1016]]></node_order>
+	<externalid><![CDATA[78]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Library Managament System - SRS</p>
+
+<p>Full working of the system - Admin -&nbsp;successful scenario</p>
+
+<p>2.9.3 Sequential diagram</p>
+
+<p>Fig 4(d) Full working of the system</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Software Requirement</p>
+
+<p>&nbsp;Front&nbsp;end:</p>
+
+<p>&nbsp;- Android developer tool</p>
+
+<p>&nbsp;- Advance Java</p>
+
+<p>&nbsp;Back end:</p>
+
+<p>&nbsp;- MySQL</p>
+
+<p>Hardware Requirement</p>
+
+<p>&nbsp;-&nbsp;Android version 2.3 ginger bread(minimum, android user&rsquo;s)</p>
+
+<p>&nbsp;-&nbsp;2GB ram</p>
+
+<p>&nbsp;-&nbsp;1.2 GHz processor</p>
+
+<p>&nbsp;-&nbsp;Intel i5</p>
+
+<p>&nbsp;-&nbsp;Windows 7/8/8.1/10</p>
+
+<p>Internet connection</p>
+
+<p>User exists</p>
+
+<p>Librarian exists</p>
+
+<p>Admin exists</p>
+
+<p>Books exists</p>
+
+<p>Transaction exists</p>
+
+<p>Bill exists</p>
+
+<p>Communication between user and admin exists</p>
+
+<p>Communication between librarian&nbsp;and admin&nbsp;exists</p>
+
+<p>Communication between admin and books exists</p>
+
+<p>Communication between admin and transaction exists</p>
+
+<p>Communication between admin and bill exists</p>
+
+<p>&nbsp;</p>
+
+<p>SETUP: Enter application</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wait for login request from the user</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login request from the user has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wait for fine details from the books</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Fine details has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Calculate fine</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Fine has been&nbsp;calclated</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Create a bill</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request for creating a bill has been sent</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Send logout response to the user</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Logout response has been sent to the user</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Wait for login request from the librarian</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Login request from the librarian has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Wait for update book request</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Update book request has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Wait for add new book or remove book request</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request for add new book or remove book has arrived</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Create a bill</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Request for creating a bill has been sent</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Send transaction of fine</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Transaction of fine has been sent</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1:Register]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ10]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.2.6 Fine]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ11]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.3.1.1 Add books]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ12]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.3.1.2 Remove book]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ2]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.1: Sign up]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Library Management System requirements]]></req_spec_title>
+			<doc_id><![CDATA[LRQ3]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[R.1.2 : Login]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+</testsuite>
